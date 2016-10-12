@@ -1,0 +1,55 @@
+// Blog Page
+
+.wrapperBlog {
+    margin: 0 auto;
+    background-color: $gray;
+}
+
+.posts {
+    margin-top: $scale*4;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    h3 {
+        line-height: 1.125;
+        margin-bottom: 0;
+    }
+}
+
+.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+
+.postBox {
+    background-color: #fff;
+    padding: $scale*2 10%;
+}
+
+.postInfo {
+    margin-bottom: $scale*2;
+
+    a {
+        color: $brand-cyan;
+        text-decoration: none;
+    }
+
+    small {
+        display: block;
+    }
+}
+
+.postTitle {
+    text-decoration: none;
+    color: $brand-red;
+}
+
+.entry img {
+    margin-bottom: $scale;
+
+    p {
+        margin-bottom: 15px;
+    }
+}

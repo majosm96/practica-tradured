@@ -1,0 +1,17 @@
+// Contact Page
+
+.contactBox {
+    width: 75%;
+    float: left;
+}
+
+.contactInfo {
+    background-color: $gray;
+    padding: $scale;
+    float: left;
+    border-radius: 15px;
+
+    span {
+        display: block;
+    }
+}

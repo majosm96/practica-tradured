@@ -1,0 +1,12 @@
+// Theme Pages
+
+.innerHeader {
+    padding: $scale*5 0 $scale*0.5 0;
+    margin-bottom: $scale*3;
+    background: $brand-blue url("img/pattern.png") repeat;
+    color: #fff;
+
+    h2 {
+    margin-bottom: 0;
+    }
+}

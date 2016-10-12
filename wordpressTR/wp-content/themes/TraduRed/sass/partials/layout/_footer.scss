@@ -1,0 +1,42 @@
+// Footer
+
+#footer {
+    background-color: #000;
+    color: $gray;
+    padding-top: $scale*0.5;
+}
+
+.navSec {
+    float: left;
+    padding: 24px 0;
+
+    li {
+        display: inline-block;
+        list-style: none;
+        padding: 0 10px;
+        border-left: 1px solid #828282;
+    }
+
+    li:first-child {
+        border-left: none;
+    }
+}
+
+.navSec a {
+    font: 21px $font-text;
+    color: $gray;
+    text-decoration: none;
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.socialMedia {
+    float: right;
+    padding-top: 15px;
+
+    img {
+        margin-left: $scale;
+    }
+}

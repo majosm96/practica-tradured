@@ -1,0 +1,26 @@
+// Boxes
+
+.fullWidth {
+    padding: $scale*3 0;
+    margin-bottom: $scale*3;
+    background: url("img/pattern.png") repeat;
+}
+
+.paragraphBox {
+    margin-bottom: $scale*3;
+    padding: $scale 0;
+}
+
+.yellowBox {
+    background-color: $brand-yellow;
+}
+
+.cyanBox {
+    background-color: $brand-cyan;
+    color: #fff;
+}
+
+.lastBox {
+    margin-bottom: 0;
+    padding-bottom: $scale*3;
+}

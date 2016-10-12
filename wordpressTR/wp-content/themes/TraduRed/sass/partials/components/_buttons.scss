@@ -1,0 +1,18 @@
+// Buttons
+
+.mainButton {
+    font: 24px $font-titles;
+    cursor: pointer;
+    text-decoration: none;
+    border: 5px solid $brand-red;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 5px 15px;
+    color: $brand-red;
+    display: inline-block;
+
+    &:hover {
+        background-color: $brand-red;
+        color: #fff;
+    }
+}

@@ -1,0 +1,123 @@
+// Front Page
+
+// Feature Section
+
+.featureBox {
+    position: relative;
+    margin-bottom: $scale*2;
+}
+
+.featureText {
+    font: bold 30px $font-text;
+}
+
+.featureBox img {
+    width: 100%;
+}
+
+.call-out {
+    font-size: 28px;
+    line-height: 1.25;
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    z-index: 2;
+}
+
+// Intro Section
+
+.icon {
+    width: 17%;
+    float: left;
+    display: inline-block;
+    margin: 0 $scale;
+}
+
+.infoBox {
+    width: 75%;
+    float: left;
+}
+
+.introSection .infoBox {
+    margin-top: 3%;
+}
+
+// Event Section
+
+.infoEvent {
+    list-style: none;
+    margin-top: $scale*2;
+
+    strong {
+        font-family: $font-titles;
+    }
+}
+
+// No events
+
+.noEventBox {
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        margin: 0 $scale $scale*2 0;
+    }
+}
+
+// Review Section
+
+.review {
+    width: 40%;
+    float: left;
+    margin: 0 0 $scale*2 10%;
+
+    p {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+}
+
+// Form Section
+
+.downloadFormBox .icon {
+    margin-right: 5%;
+}
+
+.downloadForm {
+    margin-top: $scale*1.5;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: $scale;
+
+    select {
+        border-radius: 10px;
+        height: 49px;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 18px;
+        width: 45%;
+    }
+}
+
+#wpm_download_2 {
+    margin-left: 35%;
+}
+
+.download-icon {
+    text-align: center;
+    text-decoration: none;
+    font: 21px '$font-text';
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: $scale*0.5 $scale*3;
+    margin: $scale 0;
+
+    &:hover{
+        background-color: white;
+        color: $brand-cyan;
+    }
+}

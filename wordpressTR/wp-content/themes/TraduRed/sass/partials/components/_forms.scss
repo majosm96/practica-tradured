@@ -1,0 +1,33 @@
+// Forms
+
+.formBox {
+    margin-top: $scale*2;
+    padding-bottom: $scale*2;
+
+    br {
+        display: none;
+    }
+}
+
+.formLabel {
+    width: 30%;
+    text-align: right;
+    margin-right: $scale;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.formInput {
+    width: 42%;
+    border: 4px solid $gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: $scale*0.5;
+    font: 18px $font-text;
+}
+
+.buttonBox {
+    width: 100%;
+    text-align: center;
+    margin-top: $scale;
+}

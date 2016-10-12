@@ -1,0 +1,33 @@
+// About Page
+
+.floatingBlock {
+    width: 40%;
+    float: left;
+    margin: 0 $scale*2;
+}
+
+.objContent {
+    margin-bottom: $scale*2;
+}
+
+.teamMemberTitle {
+    text-align: center;
+    margin-bottom: $scale*2;
+}
+
+.memberBox {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 0 12px;
+    margin-bottom: $scale*2;
+
+    img {
+        display: inline-block;
+        margin-bottom: $scale*0.5;
+    }
+
+    p {
+        font: $font-text;
+    }
+}
